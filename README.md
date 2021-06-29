@@ -94,3 +94,7 @@ node server.js
 #### 参与贡献
 
 1.  李梓键
+
+#### License
+
+Copyright (c) 2020-present lzj01231
