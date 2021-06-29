@@ -1,0 +1,129 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通讯录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/discover/discover",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发现",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" : {
+                "navigationBarTitleText" : "朋友圈",
+            	"enablePullDownRefresh" : true,
+                "app-plus" : {
+                    "bounce" : "none",
+                    "titleNView" : {
+                        "type" : "transparent",
+                        "buttons" : [
+                            {
+                                "background" : "rgba(255,255,255,0.2)",
+                                "color" : "#696969",
+                                "type" : "none",
+                                "fontSrc" : "/static/fonts/iconfont.ttf",
+                                "text" : "\ue608" //小相机
+                            }
+                        ]
+                    }
+                }
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/share/add",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "发布",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/address/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+        ,{
+            "path" : "pages/retroaction/retroaction",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/message/message",
+	        "iconPath": "static/image/消息1.png",
+	        "selectedIconPath": "static/image/消息2.png",
+	        "text": "消息"
+	    }, {
+	        "pagePath": "pages/address/address",
+	        "iconPath": "static/image/通讯录1.png",
+	        "selectedIconPath": "static/image/通讯录2.png",
+	        "text": "通讯录"
+	    }, {
+	        "pagePath": "pages/discover/discover",
+	        "iconPath": "static/image/发现1.png",
+	        "selectedIconPath": "static/image/发现2.png",
+	        "text": "发现"
+		}, {
+	        "pagePath": "pages/my/my",
+	        "iconPath": "static/image/我的1.png",
+	        "selectedIconPath": "static/image/我的2.png",
+	        "text": "我的"
+		}]
+	}
+}
