@@ -52,7 +52,12 @@ HBuilder官网链接：https://www.dcloud.io/hbuilderx.html
 
 #### 使用说明
 
-1.  下载源码并在微信后端下载插件
+1.  修改微信后端中User.js文件的mysql连接
+
+![mysql](https://images.gitee.com/uploads/images/2021/0630/152550_caea3b2f_8450609.png "屏幕截图.png")
+
+2.  下载源码并在微信后端下载插件
+
 ```
 cd 微信后端
 npm install
@@ -65,11 +70,11 @@ npm i -s sequelize
 npm i mysql2
 node server.js
 ```
-2.  在HBulider X将前端代码（微信）运行到浏览器
+3.  在HBulider X将前端代码（微信）运行到浏览器
 
 ![](https://images.gitee.com/uploads/images/2021/0629/205002_27f03426_8450609.png "屏幕截图.png")
 
-3.  打开效果（按f12打开控制台）
+4.  打开效果（按f12打开控制台）
 - 消息
 
 ![](https://images.gitee.com/uploads/images/2021/0629/205810_fe0fcebe_8450609.png "屏幕截图.png")
