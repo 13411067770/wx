@@ -58,7 +58,8 @@ cd 微信后端
 npm install
 npm i koa -s
 npm i s koa-router
-npm install koa-bodyparser@2 --save
+npm install koa-body
+npm install koa-server
 npm i -s sequelize
 npm i mysql2
 node server.js
