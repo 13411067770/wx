@@ -60,6 +60,7 @@ npm i koa -s
 npm i s koa-router
 npm install koa-body
 npm install koa-server
+npm install koa-bodyparser@2 --save
 npm i -s sequelize
 npm i mysql2
 node server.js
