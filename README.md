@@ -56,6 +56,7 @@ HBuilder官网链接：https://www.dcloud.io/hbuilderx.html
 ```
 cd 微信后端
 npm install
+npm i koa -s
 node server.js
 ```
 2.  在HBulider X将前端代码（微信）运行到浏览器
