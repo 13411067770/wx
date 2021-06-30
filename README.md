@@ -57,6 +57,8 @@ HBuilder官网链接：https://www.dcloud.io/hbuilderx.html
 cd 微信后端
 npm install
 npm i koa -s
+npm i s koa-router
+npm install koa-bodyparser@2 --save
 npm i -s sequelize
 npm i mysql2
 node server.js
